@@ -6,7 +6,12 @@ export const ProductContext = createContext<{
   setDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
   products: Product[];
   setProducts: React.Dispatch<React.SetStateAction<Product[]>>;
-}>({});
+}>({
+  darkMode: false,
+  setDarkMode: () => {},
+  products: [],
+  setProducts: () => [],
+});
 
 export const ProductProvider = ({ children }: { children: ReactNode }) => {
   const [darkMode, setDarkMode] = useState<boolean>(false);

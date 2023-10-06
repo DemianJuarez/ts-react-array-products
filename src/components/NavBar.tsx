@@ -17,7 +17,7 @@ export const NavBar = () => {
             Volver
           </Link>
         )}
-        <p>Product Storeee</p>
+        <p>Product Store</p>
       </nav>
     </>
   );
