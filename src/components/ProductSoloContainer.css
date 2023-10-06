@@ -1,0 +1,9 @@
+.product {
+  display: flex;
+  width: 375px;
+  height: 400px;
+  flex-direction: column;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+}
