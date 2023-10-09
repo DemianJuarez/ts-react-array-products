@@ -1,8 +1,55 @@
+.cont {
+  height: calc(100vh - 60px);
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .containerSoloProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 550px;
   background-color: gray;
 }
 
-.soloProduct {
+.productoss {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: calc(100vh - 60px);
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.leftside {
+  text-align: center;
+}
+
+.rightside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 20px;
+  font-size: 22px;
+}
+
+.imageProduct {
+  width: 350px;
+  height: 400px;
+}
+
+.product {
   padding: 3rem;
   display: flex;
 }
